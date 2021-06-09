@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #19a2ae;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.container .bg {
+  position: absolute;
+}
+
+.container .bg .bg-top {
+  -webkit-transform: translateX(-250px) translateY(-50px);
+          transform: translateX(-250px) translateY(-50px);
+}
+
+@media screen and (max-width: 950px) {
+  .container .bg .bg-top {
+    -webkit-transform: translateX(-200px) translateY(-10px) scale(50%);
+            transform: translateX(-200px) translateY(-10px) scale(50%);
+  }
+}
+
+.container .bg .bg-bottom {
+  -webkit-transform: translateX(1100px) translateY(100px);
+          transform: translateX(1100px) translateY(100px);
+}
+
+@media screen and (max-width: 950px) {
+  .container .bg .bg-bottom {
+    -webkit-transform: translateX(200px) translateY(0px) scale(50%);
+            transform: translateX(200px) translateY(0px) scale(50%);
+  }
+}
+
+.container .card {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 374px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 950px) {
+  .container .card {
+    width: 330px;
+  }
+}
+
+.container .card .pic-profile {
+  border-radius: 50%;
+  border: 5px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  top: 87px;
+  left: 122px;
+}
+
+@media screen and (max-width: 950px) {
+  .container .card .pic-profile {
+    top: 85px;
+    left: 112px;
+  }
+}
+
+.container .card .konten {
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card .konten h2 {
+  counter-reset: #2d3248;
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  margin-top: 76px;
+  text-align: center;
+}
+
+.container .card .konten h2 span {
+  margin-left: 9px;
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.container .card .konten .london {
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 11px;
+  font-weight: 400;
+  color: #6a6f81;
+  padding-bottom: 28px;
+  -webkit-box-shadow: 0 2px 2px -2px gray;
+          box-shadow: 0 2px 2px -2px gray;
+}
+
+.container .card .konten .footer {
+  padding-top: -28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -50px;
+  padding-left: 48px;
+  padding-right: 55px;
+}
+
+.container .card .konten .footer .footer1 p {
+  border-bottom: none;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  font-size: 9px;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  color: #6a6f81;
+}
+
+.container .card .konten .footer .footer2 {
+  margin-right: 10px;
+}
+
+.container .card .konten .footer .footer2 p {
+  border-bottom: none;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  font-size: 9px;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  color: #6a6f81;
+}
+
+.container .card .konten .footer .footer3 p {
+  border-bottom: none;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  font-size: 9px;
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+  color: #6a6f81;
+}
+
+.container .card .konten .footer h2 {
+  font-weight: 700;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
