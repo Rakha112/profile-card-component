@@ -42,8 +42,8 @@ body {
 }
 
 .container .bg .bg-bottom {
-  -webkit-transform: translateX(1000px) translateY(100px);
-          transform: translateX(1000px) translateY(100px);
+  -webkit-transform: translateX(1100px) translateY(100px);
+          transform: translateX(1100px) translateY(100px);
 }
 
 @media screen and (max-width: 950px) {
