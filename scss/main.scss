@@ -27,7 +27,7 @@
         position: relative;
         overflow: hidden;
         width: 350px;
-        @media screen and (max-width: 950px) {
+        @media screen and(max-width: 1000px) {
             width: 330px;        
         }
         height: 374px;
@@ -42,7 +42,7 @@
             position: absolute;
             top: 87px;
             left: 122px;
-            @media screen and (max-width: 950px) {
+            @media screen and(max-width: 1000px) {
                 top: 85px;
                 left: 112px;            
             }
